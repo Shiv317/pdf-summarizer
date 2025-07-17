@@ -5,6 +5,7 @@ import Header from "@/components/common/header";
 import Footer from "@/components/common/footer";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
+import { ORIGIN_URL } from "@/utils/helpers";
 
 const fontSans = FontSans({
   variable: "--font-sans",
@@ -15,6 +16,17 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "Summarizer.ai",
   description: "Now you can save hours by transforming your PDF into clear and concise summaries in seconds using AI",
+  openGraph: {
+    images: [
+      {
+        url: '/og-image.png',
+      },
+    ],
+  },
+  metadataBase: new URL(ORIGIN_URL),
+  alternates: {
+    canonical: ORIGIN_URL,
+  },
 };
 
 export default function RootLayout({
