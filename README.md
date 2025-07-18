@@ -1,4 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Sommaire — Turn PDFs into Beautiful AI-Powered Summaries
+
+Transform your PDFs into a stunning reel of meaningful insights using the power of **AI**.  
+Sommaire helps you go from document overload to crystal-clear takeaways — in seconds.
+
+🔗 **Live Demo**: [Sommaire is live on Vercel](https://pdf-summarizer-xydd-2uy07vi11-shivail-anands-projects.vercel.app/)
+
+---
+
+## 🚀 Tech Stack
+
+### Core Technologies:
+- ⚡️ **Next.js 15 (App Router)** — Server Components, server-side rendering, modern routing
+- ⚛️ **React** — Interactive UIs and state management
+- 🔐 **Clerk** — Authentication (Passkeys, GitHub, Google)
+- 🧠 **OpenAI GPT-4** — AI summarization with emojis and context awareness
+- 🦜 **Langchain** — Document parsing, chunking, semantic retrieval
+- 🧱 **ShadCN UI** — Accessible and elegant UI components
+- 🧵 **TailwindCSS v4** — Utility-first modern CSS framework
+- 🧠 **TypeScript** — Strong typing for scalability
+- 🐘 **NeonDB (PostgreSQL)** — Serverless database for storing summaries
+- ☁️ **UploadThing** — Secure file uploads up to 32MB
+- 💳 **Stripe** — Subscription billing, pricing tiers, and webhook handling
+- ▲ **Vercel** — Seamless deployment & edge infrastructure
+
+---
+
+## ✨ Features
+
+- 📄 **AI-Powered Summaries** — Structured, readable, and emoji-enhanced
+- 🧾 **Summary Viewer** — Track reading progress & revisit older documents
+- 🔒 **Secure File Uploads** — Protected routes, user auth, and secure handling
+- 💰 **Subscription Model** — Basic & Pro plans using Stripe
+- 📊 **Dashboard** — Manage summaries, track limits, and upgrade easily
+- 📱 **Responsive Design** — Works across mobile and desktop
+- 🛠 **Edge Performance** — SEO-optimized with ISR and smart revalidation
+- 🔔 **Toast Notifications** — Real-time feedback for all user actions
+
+---
+
+## 🛠 Getting Started
+
+### 1. Clone & Install
+
+```bash
+git clone https://github.com/your-username/pdf-summarizer.git
+cd pdf-summarizer
+npm install
+.
 
 ## Getting Started
 
@@ -20,17 +68,25 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+🙌 Acknowledgements
+🧠 OpenAI — AI summarization
 
-To learn more about Next.js, take a look at the following resources:
+🔐 Clerk — Seamless authentication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🦜 Langchain — PDF understanding
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💳 Stripe — Payments infrastructure
 
-## Deploy on Vercel
+☁️ UploadThing — File management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧱 ShadCN UI — Elegant UI components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🐘 NeonDB — Scalable cloud-native Postgres
+
+
+📬 Contact
+Got ideas, feedback, or want to contribute?
+Open an issue or reach out to me on shivailanand2003@gmail.com . 🚀
+
+
+
